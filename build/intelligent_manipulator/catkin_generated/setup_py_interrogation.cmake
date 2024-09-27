@@ -1,0 +1,7 @@
+set(intelligent_manipulator_SETUP_PY_SETUP_MODULE "distutils.core")
+set(intelligent_manipulator_SETUP_PY_VERSION "0.0.0")
+set(intelligent_manipulator_SETUP_PY_SCRIPTS "")
+set(intelligent_manipulator_SETUP_PY_PACKAGES "intelligent_manipulator")
+set(intelligent_manipulator_SETUP_PY_PACKAGE_DIRS "src/intelligent_manipulator")
+set(intelligent_manipulator_SETUP_PY_MODULES "")
+set(intelligent_manipulator_SETUP_PY_MODULE_DIRS "")
