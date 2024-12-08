@@ -29,7 +29,7 @@ def move_end_effector():
     equilibrium_pose.pose.orientation.x = 0.0
     equilibrium_pose.pose.orientation.y = 0.0
     equilibrium_pose.pose.orientation.z = 0.0
-    equilibrium_pose.pose.orientation.w = 0.0
+    equilibrium_pose.pose.orientation.w = 1.0
 
     # Allow time for connections
     rospy.sleep(1)
