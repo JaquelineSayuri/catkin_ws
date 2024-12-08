@@ -7,4 +7,5 @@
 # new environment variables
 
 # modified environment variables
+export LD_LIBRARY_PATH='/home/jaqueline/catkin_ws/devel/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu:/usr/local/cuda-12.5/lib64:/usr/local/cuda-12.5/lib64:'
 export PWD='/home/jaqueline/catkin_ws/build'

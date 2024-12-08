@@ -103,23 +103,23 @@ franka_ros/franka_gripper/CMakeFiles/franka_gripper_generate_messages_eus: /home
 
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/GraspAction.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/GraspAction.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/GraspAction.msg
-/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/GraspAction.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/GraspAction.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/GraspResult.msg
-/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/GraspAction.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/GraspAction.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/GraspActionGoal.msg
+/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/GraspAction.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/GraspActionResult.msg
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/GraspAction.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/GraspActionFeedback.msg
+/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/GraspAction.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/GraspGoal.msg
+/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/GraspAction.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/GraspAction.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/GraspAction.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/GraspAction.l: /home/jaqueline/catkin_ws/src/franka_ros/franka_gripper/msg/GraspEpsilon.msg
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/GraspAction.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/GraspFeedback.msg
-/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/GraspAction.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/GraspActionResult.msg
-/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/GraspAction.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/GraspAction.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/GraspActionGoal.msg
-/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/GraspAction.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/GraspGoal.msg
+/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/GraspAction.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/GraspResult.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jaqueline/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from franka_gripper/GraspAction.msg"
 	cd /home/jaqueline/catkin_ws/build/franka_ros/franka_gripper && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/GraspAction.msg -Ifranka_gripper:/home/jaqueline/catkin_ws/devel/share/franka_gripper/msg -Ifranka_gripper:/home/jaqueline/catkin_ws/src/franka_ros/franka_gripper/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p franka_gripper -o /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg
 
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/GraspActionFeedback.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/GraspActionFeedback.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/GraspActionFeedback.msg
-/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/GraspActionFeedback.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/GraspActionFeedback.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/GraspActionFeedback.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/GraspActionFeedback.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/GraspActionFeedback.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/GraspFeedback.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jaqueline/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating EusLisp code from franka_gripper/GraspActionFeedback.msg"
@@ -127,19 +127,19 @@ franka_ros/franka_gripper/CMakeFiles/franka_gripper_generate_messages_eus: /home
 
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/GraspActionGoal.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/GraspActionGoal.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/GraspActionGoal.msg
-/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/GraspActionGoal.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/GraspActionGoal.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/GraspActionGoal.l: /home/jaqueline/catkin_ws/src/franka_ros/franka_gripper/msg/GraspEpsilon.msg
+/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/GraspActionGoal.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/GraspActionGoal.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/GraspGoal.msg
+/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/GraspActionGoal.l: /home/jaqueline/catkin_ws/src/franka_ros/franka_gripper/msg/GraspEpsilon.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jaqueline/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating EusLisp code from franka_gripper/GraspActionGoal.msg"
 	cd /home/jaqueline/catkin_ws/build/franka_ros/franka_gripper && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/GraspActionGoal.msg -Ifranka_gripper:/home/jaqueline/catkin_ws/devel/share/franka_gripper/msg -Ifranka_gripper:/home/jaqueline/catkin_ws/src/franka_ros/franka_gripper/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p franka_gripper -o /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg
 
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/GraspActionResult.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/GraspActionResult.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/GraspActionResult.msg
-/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/GraspActionResult.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/GraspActionResult.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/GraspActionResult.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/GraspResult.msg
+/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/GraspActionResult.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/GraspActionResult.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/GraspActionResult.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/GraspResult.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jaqueline/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating EusLisp code from franka_gripper/GraspActionResult.msg"
 	cd /home/jaqueline/catkin_ws/build/franka_ros/franka_gripper && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/GraspActionResult.msg -Ifranka_gripper:/home/jaqueline/catkin_ws/devel/share/franka_gripper/msg -Ifranka_gripper:/home/jaqueline/catkin_ws/src/franka_ros/franka_gripper/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p franka_gripper -o /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg
 
@@ -166,41 +166,41 @@ franka_ros/franka_gripper/CMakeFiles/franka_gripper_generate_messages_eus: /home
 
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/HomingAction.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/HomingAction.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/HomingAction.msg
-/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/HomingAction.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/HomingActionGoal.msg
-/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/HomingAction.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/HomingAction.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/HomingGoal.msg
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/HomingAction.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/HomingActionFeedback.msg
-/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/HomingAction.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/HomingAction.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/HomingActionResult.msg
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/HomingAction.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/HomingFeedback.msg
+/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/HomingAction.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/HomingAction.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/HomingAction.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/HomingActionGoal.msg
+/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/HomingAction.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/HomingGoal.msg
+/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/HomingAction.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/HomingAction.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/HomingResult.msg
+/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/HomingAction.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/HomingActionResult.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jaqueline/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating EusLisp code from franka_gripper/HomingAction.msg"
 	cd /home/jaqueline/catkin_ws/build/franka_ros/franka_gripper && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/HomingAction.msg -Ifranka_gripper:/home/jaqueline/catkin_ws/devel/share/franka_gripper/msg -Ifranka_gripper:/home/jaqueline/catkin_ws/src/franka_ros/franka_gripper/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p franka_gripper -o /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg
 
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/HomingActionFeedback.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/HomingActionFeedback.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/HomingActionFeedback.msg
-/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/HomingActionFeedback.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/HomingActionFeedback.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/HomingActionFeedback.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/HomingFeedback.msg
+/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/HomingActionFeedback.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/HomingActionFeedback.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/HomingActionFeedback.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/HomingFeedback.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jaqueline/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating EusLisp code from franka_gripper/HomingActionFeedback.msg"
 	cd /home/jaqueline/catkin_ws/build/franka_ros/franka_gripper && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/HomingActionFeedback.msg -Ifranka_gripper:/home/jaqueline/catkin_ws/devel/share/franka_gripper/msg -Ifranka_gripper:/home/jaqueline/catkin_ws/src/franka_ros/franka_gripper/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p franka_gripper -o /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg
 
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/HomingActionGoal.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/HomingActionGoal.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/HomingActionGoal.msg
-/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/HomingActionGoal.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/HomingActionGoal.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/HomingActionGoal.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/HomingActionGoal.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/HomingGoal.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jaqueline/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating EusLisp code from franka_gripper/HomingActionGoal.msg"
 	cd /home/jaqueline/catkin_ws/build/franka_ros/franka_gripper && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/HomingActionGoal.msg -Ifranka_gripper:/home/jaqueline/catkin_ws/devel/share/franka_gripper/msg -Ifranka_gripper:/home/jaqueline/catkin_ws/src/franka_ros/franka_gripper/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p franka_gripper -o /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg
 
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/HomingActionResult.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/HomingActionResult.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/HomingActionResult.msg
-/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/HomingActionResult.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/HomingActionResult.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/HomingActionResult.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/HomingResult.msg
+/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/HomingActionResult.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/HomingActionResult.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/HomingActionResult.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/HomingResult.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jaqueline/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating EusLisp code from franka_gripper/HomingActionResult.msg"
 	cd /home/jaqueline/catkin_ws/build/franka_ros/franka_gripper && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/HomingActionResult.msg -Ifranka_gripper:/home/jaqueline/catkin_ws/devel/share/franka_gripper/msg -Ifranka_gripper:/home/jaqueline/catkin_ws/src/franka_ros/franka_gripper/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p franka_gripper -o /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg
 
@@ -221,41 +221,41 @@ franka_ros/franka_gripper/CMakeFiles/franka_gripper_generate_messages_eus: /home
 
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/MoveAction.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/MoveAction.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/MoveAction.msg
-/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/MoveAction.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/MoveAction.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/MoveResult.msg
-/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/MoveAction.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/MoveAction.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/MoveActionGoal.msg
-/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/MoveAction.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/MoveGoal.msg
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/MoveAction.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/MoveActionFeedback.msg
-/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/MoveAction.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/MoveAction.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/MoveActionGoal.msg
+/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/MoveAction.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/MoveAction.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/MoveFeedback.msg
+/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/MoveAction.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/MoveAction.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/MoveActionResult.msg
+/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/MoveAction.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/MoveAction.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/MoveResult.msg
+/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/MoveAction.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/MoveGoal.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jaqueline/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating EusLisp code from franka_gripper/MoveAction.msg"
 	cd /home/jaqueline/catkin_ws/build/franka_ros/franka_gripper && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/MoveAction.msg -Ifranka_gripper:/home/jaqueline/catkin_ws/devel/share/franka_gripper/msg -Ifranka_gripper:/home/jaqueline/catkin_ws/src/franka_ros/franka_gripper/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p franka_gripper -o /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg
 
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/MoveActionFeedback.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/MoveActionFeedback.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/MoveActionFeedback.msg
-/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/MoveActionFeedback.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/MoveActionFeedback.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/MoveActionFeedback.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/MoveFeedback.msg
+/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/MoveActionFeedback.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/MoveActionFeedback.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/MoveActionFeedback.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/MoveFeedback.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jaqueline/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating EusLisp code from franka_gripper/MoveActionFeedback.msg"
 	cd /home/jaqueline/catkin_ws/build/franka_ros/franka_gripper && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/MoveActionFeedback.msg -Ifranka_gripper:/home/jaqueline/catkin_ws/devel/share/franka_gripper/msg -Ifranka_gripper:/home/jaqueline/catkin_ws/src/franka_ros/franka_gripper/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p franka_gripper -o /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg
 
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/MoveActionGoal.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/MoveActionGoal.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/MoveActionGoal.msg
-/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/MoveActionGoal.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/MoveActionGoal.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/MoveActionGoal.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/MoveGoal.msg
+/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/MoveActionGoal.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jaqueline/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating EusLisp code from franka_gripper/MoveActionGoal.msg"
 	cd /home/jaqueline/catkin_ws/build/franka_ros/franka_gripper && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/MoveActionGoal.msg -Ifranka_gripper:/home/jaqueline/catkin_ws/devel/share/franka_gripper/msg -Ifranka_gripper:/home/jaqueline/catkin_ws/src/franka_ros/franka_gripper/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p franka_gripper -o /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg
 
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/MoveActionResult.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/MoveActionResult.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/MoveActionResult.msg
-/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/MoveActionResult.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/MoveActionResult.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/MoveActionResult.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/MoveResult.msg
+/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/MoveActionResult.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/MoveActionResult.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/MoveActionResult.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/MoveResult.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jaqueline/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating EusLisp code from franka_gripper/MoveActionResult.msg"
 	cd /home/jaqueline/catkin_ws/build/franka_ros/franka_gripper && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/MoveActionResult.msg -Ifranka_gripper:/home/jaqueline/catkin_ws/devel/share/franka_gripper/msg -Ifranka_gripper:/home/jaqueline/catkin_ws/src/franka_ros/franka_gripper/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p franka_gripper -o /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg
 
@@ -277,40 +277,40 @@ franka_ros/franka_gripper/CMakeFiles/franka_gripper_generate_messages_eus: /home
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/StopAction.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/StopAction.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/StopAction.msg
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/StopAction.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/StopResult.msg
-/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/StopAction.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/StopAction.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/StopFeedback.msg
-/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/StopAction.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/StopAction.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/StopActionGoal.msg
-/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/StopAction.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/StopAction.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/StopGoal.msg
+/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/StopAction.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/StopActionGoal.msg
+/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/StopAction.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/StopAction.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/StopAction.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/StopAction.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/StopActionResult.msg
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/StopAction.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/StopActionFeedback.msg
+/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/StopAction.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/StopFeedback.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jaqueline/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Generating EusLisp code from franka_gripper/StopAction.msg"
 	cd /home/jaqueline/catkin_ws/build/franka_ros/franka_gripper && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/StopAction.msg -Ifranka_gripper:/home/jaqueline/catkin_ws/devel/share/franka_gripper/msg -Ifranka_gripper:/home/jaqueline/catkin_ws/src/franka_ros/franka_gripper/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p franka_gripper -o /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg
 
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/StopActionFeedback.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/StopActionFeedback.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/StopActionFeedback.msg
-/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/StopActionFeedback.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/StopActionFeedback.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/StopActionFeedback.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/StopFeedback.msg
+/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/StopActionFeedback.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/StopActionFeedback.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jaqueline/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Generating EusLisp code from franka_gripper/StopActionFeedback.msg"
 	cd /home/jaqueline/catkin_ws/build/franka_ros/franka_gripper && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/StopActionFeedback.msg -Ifranka_gripper:/home/jaqueline/catkin_ws/devel/share/franka_gripper/msg -Ifranka_gripper:/home/jaqueline/catkin_ws/src/franka_ros/franka_gripper/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p franka_gripper -o /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg
 
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/StopActionGoal.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/StopActionGoal.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/StopActionGoal.msg
-/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/StopActionGoal.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/StopActionGoal.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/StopActionGoal.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/StopActionGoal.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/StopGoal.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jaqueline/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Generating EusLisp code from franka_gripper/StopActionGoal.msg"
 	cd /home/jaqueline/catkin_ws/build/franka_ros/franka_gripper && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/StopActionGoal.msg -Ifranka_gripper:/home/jaqueline/catkin_ws/devel/share/franka_gripper/msg -Ifranka_gripper:/home/jaqueline/catkin_ws/src/franka_ros/franka_gripper/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p franka_gripper -o /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg
 
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/StopActionResult.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/StopActionResult.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/StopActionResult.msg
-/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/StopActionResult.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/StopActionResult.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/StopActionResult.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/StopResult.msg
+/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/StopActionResult.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/StopActionResult.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg/StopActionResult.l: /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/StopResult.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jaqueline/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Generating EusLisp code from franka_gripper/StopActionResult.msg"
 	cd /home/jaqueline/catkin_ws/build/franka_ros/franka_gripper && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/jaqueline/catkin_ws/devel/share/franka_gripper/msg/StopActionResult.msg -Ifranka_gripper:/home/jaqueline/catkin_ws/devel/share/franka_gripper/msg -Ifranka_gripper:/home/jaqueline/catkin_ws/src/franka_ros/franka_gripper/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p franka_gripper -o /home/jaqueline/catkin_ws/devel/share/roseus/ros/franka_gripper/msg
 
