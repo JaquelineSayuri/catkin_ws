@@ -7,12 +7,21 @@ void gripperClient() {
     ros::NodeHandle nh;
     ROS_INFO("Starting the gripper client...");
 
+    // Check if the action server is available
+    if (!ros::service::exists("/franka_gripper/gripper_action", true)) {
+        ROS_ERROR("Gripper action server not available!");
+        return;
+    }
+
     // Create an action client
     actionlib::SimpleActionClient<control_msgs::GripperCommandAction> client("/franka_gripper/gripper_action", true);
 
     // Wait for the action server to be available
     ROS_INFO("Waiting for the action server to start...");
-    client.waitForServer();
+    if (!client.waitForServer()) {
+        ROS_ERROR("Gripper action server did not start!");
+        return;
+    }
 
     // Create a goal to send to the action server
     control_msgs::GripperCommandGoal goal;
@@ -21,10 +30,10 @@ void gripperClient() {
 
     // Send the goal and wait for the result
     ROS_INFO("Sending goal to gripper...");
-    client.sendGoal(goal);
-
-    // Wait for the action to complete
-    client.waitForResult();
+    if (!client.sendGoalAndWait(goal, ros::Duration(1.0))) {
+        ROS_ERROR("Gripper action timed out!");
+        return;
+    }
 
     // Check the result
     if (client.getState() == actionlib::SimpleClientGoalState::SUCCEEDED) {
