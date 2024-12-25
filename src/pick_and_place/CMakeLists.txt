@@ -135,11 +135,6 @@ include_directories(
 ## The recommended prefix ensures that target names across packages don't collide
 # add_executable(${PROJECT_NAME}_node src/pick_and_place_node.cpp)
 
-add_executable(main scripts/main.py) 
-add_executable(robot_node scripts/robot_node.py)
-add_executable(vision_system_node scripts/vision_system_node.py)
-add_executable(pick_and_place_node scripts/pick_and_place_node.py) 
-
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
 ## target back to the shorter version for ease of user use
@@ -174,9 +169,6 @@ add_executable(pick_and_place_node scripts/pick_and_place_node.py)
 # install(TARGETS ${PROJECT_NAME}_node
 #   RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 # )
-
-install(TARGETS main robot_node vision_system_node pick_and_place_node 
-        DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
 
 ## Mark libraries for installation
 ## See http://docs.ros.org/melodic/api/catkin/html/howto/format1/building_libraries.html
