@@ -1,8 +1,0 @@
-prefix=/home/jaqueline/catkin_ws/devel
-
-Name: opencv_node
-Description: Description of opencv_node
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: cv_bridge image_transport roscpp sensor_msgs std_msgs
