@@ -13,6 +13,7 @@ class Robot:
         """
         Constructor: Initializes the object's attributes.
         """
+        self.target_pose_pub = rospy.Publisher('/cartesian_impedance_example_controller/equilibrium_pose', PoseStamped, queue_size=10)
         self.target_pose = None
         print("Setting target_pose:", self.target_pose)
 
@@ -22,9 +23,7 @@ class Robot:
         """
         print("Moving to pose")
         self.target_pose = pose
-        pub = rospy.Publisher('/cartesian_impedance_example_controller/equilibrium_pose', PoseStamped, queue_size=10)
-
-        pub.publish(self.target_pose)
+        self.target_pose_pub.publish(self.target_pose)
         rospy.loginfo("Published pose: %s", self.target_pose)
 
     def open_gripper(self):#, arg1, arg2):
