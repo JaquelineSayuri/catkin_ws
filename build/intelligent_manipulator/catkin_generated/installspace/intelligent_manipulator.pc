@@ -1,8 +1,0 @@
-prefix=/home/jaqueline/catkin_ws/install
-
-Name: intelligent_manipulator
-Description: Description of intelligent_manipulator
-Version: 0.0.0
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib 
-Requires: message_runtime
