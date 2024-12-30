@@ -7,18 +7,18 @@ def get_poses():
     poses = [
         # left white section
         {
-            "position": {"x": 0.1, "y": 0.45, "z": 0.5},
-            "orientation": {"x": -0.71, "y": -0.71, "z": 0.0, "w": 0.0},
+            "position": {"x": 0.1, "y": 0.0, "z": 0.4},
+            "orientation": {"x": -0.9396926, "y": 0.0, "z": -0.3420201, "w": 0.0},
             "frame_id": "gripper"
         },
         {
-            "position": {"x": 0.23, "y": 0.58, "z": 0.4},
-            "orientation": {"x": -0.69, "y": -0.65, "z": 0.27, "w": -0.15},
+            "position": {"x": 0.5, "y": 0.25, "z": 0.45},
+            "orientation": {"x": -0.9076734, "y": 0.0885213, "z": 0.3303661, "w": -0.2432103},
             "frame_id": "gripper"
         },
         {
-            "position": {"x": 0.1, "y": 0.4, "z": 0.5},
-            "orientation": {"x": -0.71, "y": -0.7, "z": -0.11, "w": 0.0},
+            "position": {"x": 0.5, "y": -0.25, "z": 0.45},
+            "orientation": {"x": -0.9076734, "y": -0.0885213, "z": 0.3303661, "w": 0.2432103},
             "frame_id": "gripper"
         },
 
