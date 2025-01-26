@@ -21,7 +21,6 @@ def get_poses():
             "orientation": {"x": -0.9076734, "y": -0.0885213, "z": 0.3303661, "w": 0.2432103},
             "frame_id": "gripper"
         },
-
         # yellow section
         {
             "position": {"x": 0.1, "y": 0.0, "z": 0.615},

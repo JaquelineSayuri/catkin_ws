@@ -10,6 +10,7 @@ import tf2_ros
 import tf
 from tf2_sensor_msgs.tf2_sensor_msgs import do_transform_cloud
 import numpy as np
+from scipy.spatial import KDTree
 
 class Robot:
     """
@@ -209,7 +210,17 @@ class VisionSystem:
         #    print('x y z:', x, y, z)
 
     def transform_point_cloud(self, point_cloud_msg, transform, tf_buffer):
-        # Transform the point cloud using tf2
+        """
+        Calculates the Euclidean distance between two 3D points.
+
+        Args:
+            p1: First point as a tuple (x, y, z).
+            p2: Second point as a tuple (x, y, z).
+
+        Returns:
+            The Euclidean distance between the two points.
+        """
+        rospy.loginfo("Transforming point cloud")
         try:
             transformed_cloud = do_transform_cloud(point_cloud_msg, transform)
         except Exception as e:
@@ -218,19 +229,22 @@ class VisionSystem:
         
         self.tf_point_cloud_msg = transformed_cloud
         self.tf_point_cloud = pc2.read_points(transformed_cloud, field_names=("x", "y", "z"), skip_nans=True)
+        rospy.loginfo("Sucessfully transformed point cloud")
 
         return self.tf_point_cloud_msg
     
     def merge_point_clouds(self, cloud_list):
         """
-        Merges a list of PointCloud2 messages into a single PointCloud2 message.
+        Segments a PointCloud2 message using Euclidean distance with optimizations.
 
         Args:
-            cloud_list: A list of PointCloud2 messages.
+            cloud_msg: The input PointCloud2 message.
+            distance_threshold: The maximum distance between points in the same cluster.
 
         Returns:
-            The merged PointCloud2 message.
+            A list of PointCloud2 messages, each representing a segmented cluster.
         """
+        rospy.loginfo("Merging point clouds")
 
         if not cloud_list:
             rospy.logerr("Empty cloud list. Cannot merge.")
@@ -267,7 +281,72 @@ class VisionSystem:
         merged_cloud.is_bigendian = False 
         merged_cloud.data = np.asarray(merged_points, np.float32).tobytes() 
 
+        rospy.loginfo("Sucessfully merged point clouds")
+
         return merged_cloud
+
+    def segment_point_cloud(self, cloud_msg, distance_threshold):
+        """
+        Segments a PointCloud2 message using Euclidean distance and scipy.spatial.KDTree.
+
+        Args:
+            cloud_msg: The input PointCloud2 message.
+            distance_threshold: The maximum distance between points in the same cluster.
+
+        Returns:
+            A list of PointCloud2 messages, each representing a segmented cluster.
+        """
+        rospy.loginfo("Segmenting point cloud")
+
+        points = np.array(list(pc2.read_points(cloud_msg, field_names=("x", "y", "z"), skip_nans=True)))
+        num_points = points.shape[0]
+
+        # Initialize cluster labels
+        labels = np.full(num_points, -1, dtype=np.int32) 
+
+        current_label = 0
+
+        # Create a KD-Tree for efficient nearest neighbor search
+        tree = KDTree(points)
+
+        for i in range(num_points):
+            if labels[i] != -1:  # Point already assigned to a cluster
+                continue
+
+            labels[i] = current_label 
+
+            # Find neighboring points within the distance threshold
+            neighbor_indices = tree.query_ball_point(points[i], distance_threshold) 
+            labels[neighbor_indices] = current_label
+
+            current_label += 1
+
+        # Create a list of segmented point clouds
+        segmented_clouds = []
+        for label in set(labels):
+            cluster_points = points[labels == label]
+            if len(cluster_points) > 0: 
+                cluster_cloud = self.create_point_cloud_msg(cluster_points, cloud_msg.header)
+                segmented_clouds.append(cluster_cloud)
+
+        rospy.loginfo("Sucessfully segmented point cloud")
+
+        return segmented_clouds
+
+    def create_point_cloud_msg(self, points, header):
+        """
+        Creates a PointCloud2 message from a list of points.
+
+        Args:
+            points: A NumPy array of points (N x 3).
+            header: The header for the PointCloud2 message.
+
+        Returns:
+            The created PointCloud2 message.
+        """
+        cloud_msg = pc2.create_cloud_xyz32(header, points) 
+        
+        return cloud_msg
 
 def main():
     rospy.init_node('main_node')
@@ -278,10 +357,8 @@ def main():
     vision_system = VisionSystem()
 
     poses = get_poses()
-    point_cloud_msgs = []
     tf_point_cloud_msgs = []
     cam_poses = []
-    transforms = []
 
     #while not rospy.is_shutdown():
     for pose in poses[:3]:
@@ -299,25 +376,36 @@ def main():
         robot.move_to_pose(pose_msg)
 
         #read and store point cloud
-        point_cloud_msgs.append(vision_system.get_point_cloud())
-        transforms.append(robot.get_transform("world", "camera_depth_link", point_cloud_msgs[-1].header.stamp))
+        point_cloud_msg = vision_system.get_point_cloud()
+        transform = robot.get_transform("world", "camera_depth_link", point_cloud_msg.header.stamp)
+        tf_point_cloud_msg = vision_system.transform_point_cloud(point_cloud_msg, transform, robot.tf_buffer)
+        tf_point_cloud_msgs.append(tf_point_cloud_msg)
 
         #read and store camera pose
         cam_poses.append(robot.get_camera_pose())
 
         rate.sleep()
 
-    #transform point cloud from camera to world frame
-    for point_cloud_msg, transform in zip(point_cloud_msgs, transforms):
-        tf_point_cloud_msg = vision_system.transform_point_cloud(point_cloud_msg, transform, robot.tf_buffer)
-        tf_point_cloud_msgs.append(tf_point_cloud_msg)
-
     merged_cloud = vision_system.merge_point_clouds(tf_point_cloud_msgs)
+    segmented_clouds = vision_system.segment_point_cloud(merged_cloud, 0.15)
+    #print(len(segmented_clouds))
+
+    #publish point clouds
+    '''
+    i = 1
+    for cloud in segmented_clouds:
+        print(f"point cloud {i}")
+        sg_point_cloud_pub = rospy.Publisher('/sg_point_cloud', PointCloud2, queue_size=10)
+        sg_point_cloud_pub.publish(cloud)
     
-    while not rospy.is_shutdown():
-        mg_point_cloud_pub = rospy.Publisher('/mg_point_cloud', PointCloud2, queue_size=10)
-        mg_point_cloud_pub.publish(merged_cloud)
+        input("Press enter to continue...")
         rate.sleep()
+
+        i += 1
+    '''
+
+    #create meshes ??
+
 
 if __name__ == '__main__':
     main()
