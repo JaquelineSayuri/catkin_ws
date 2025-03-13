@@ -1,0 +1,1 @@
+In this workspace I started to develop the RoboCup arm challenge directly using python scripts, instead of using MATLAB. This project has been stopped since ROS1 is going to be deprecated soon, and I shifted to ROS2 humble.
